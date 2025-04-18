@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Tool Kits | Learn Programming From Scratch</title>
-    
+
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-    
+
     <!-- AOS Animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    
+
     <style>
         :root {
             --primary: #2D46B9;
@@ -603,9 +606,17 @@
         }
 
         @keyframes floating {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
-            100% { transform: translateY(0px); }
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
         }
 
         .back-to-top {
@@ -643,19 +654,21 @@
             .hero-title {
                 font-size: 2.8rem;
             }
-            
-            .section-title, .cta-title, .about-title {
+
+            .section-title,
+            .cta-title,
+            .about-title {
                 font-size: 2.2rem;
             }
-            
+
             .hero-img {
                 margin-top: 40px;
             }
-            
+
             .about-img {
                 margin-bottom: 40px;
             }
-            
+
             .about-content {
                 padding-left: 0;
             }
@@ -665,23 +678,28 @@
             .hero-title {
                 font-size: 2.5rem;
             }
-            
+
             .hero {
                 padding: 100px 0 60px;
             }
-            
-            .section-title, .cta-title, .about-title {
+
+            .section-title,
+            .cta-title,
+            .about-title {
                 font-size: 2rem;
             }
-            
-            .courses-section, .features-section, .testimonials-section, .about-section {
+
+            .courses-section,
+            .features-section,
+            .testimonials-section,
+            .about-section {
                 padding: 70px 0;
             }
-            
+
             .stat-number {
                 font-size: 2.5rem;
             }
-            
+
             .stat-text {
                 font-size: 1rem;
             }
@@ -691,92 +709,116 @@
             .hero-title {
                 font-size: 2.2rem;
             }
-            
-            .hero-subtitle, .cta-subtitle {
+
+            .hero-subtitle,
+            .cta-subtitle {
                 font-size: 1rem;
             }
-            
-            .section-title, .cta-title, .about-title {
+
+            .section-title,
+            .cta-title,
+            .about-title {
                 font-size: 1.8rem;
             }
-            
-            .feature-card, .testimonial-card {
+
+            .feature-card,
+            .testimonial-card {
                 padding: 20px;
             }
-            
-            .course-title, .feature-title {
+
+            .course-title,
+            .feature-title {
                 font-size: 1.1rem;
             }
         }
-         .developer-section {
-        padding: 40px 20px;
-        background: #f5f5f5;
-        border-radius: 20px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        margin: 20px auto;
-        max-width: 1000px;
-    }
 
-    .developer-image {
-        width: 100%;
-        max-width: 250px;
-        border-radius: 50%;
-        border: 5px solid black;
-    }
+        .developer-section {
+            padding: 40px 20px;
+            background: #f5f5f5;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 1000px;
+        }
 
-    .developer-info h2 {
-        font-size: 2rem;
-        font-weight: bold;
-    }
+        .developer-image {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 50%;
+            border: 5px solid black;
+        }
 
-    .developer-info p {
-        font-size: 1.2rem;
-        margin-bottom: 20px;
-    }
+        .developer-info h2 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
 
-    .social-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 20px;
-    }
+        .developer-info p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
 
-    .social-link {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding: 10px 15px;
-        border-radius: 10px;
-        text-decoration: none;
-        color: white;
-        font-weight: 500;
-        transition: 0.3s ease;
-    }
+        .social-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
 
-    .instagram { background-color: #e1306c; }
-    .facebook { background-color: #3b5998; }
-    .linkedin { background-color: #0077b5; }
-    .snapchat { background-color: #fffc00; color: black; }
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: 0.3s ease;
+        }
 
-    .social-link:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
+        .instagram {
+            background-color: #e1306c;
+        }
 
-    .typewriter {
-        font-family: 'Courier New', Courier, monospace;
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typing 2s steps(20) 1;
-    }
+        .facebook {
+            background-color: #3b5998;
+        }
 
-    @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-    }
+        .linkedin {
+            background-color: #0077b5;
+        }
+
+        .snapchat {
+            background-color: #fffc00;
+            color: black;
+        }
+
+        .social-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .typewriter {
+            font-family: 'Courier New', Courier, monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 2s steps(20) 1;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
     </style>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -785,8 +827,9 @@
                 <img src="https://iili.io/31Jst1t.md.png" alt="Tech Tool Kits Logo">
             </a>
             <a class="navbar-brand" href="#"><i class="fa fa-code"></i>&nbsp;Tech Tool Kits</span></a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -812,7 +855,7 @@
                 </ul>
                 <div class="ms-lg-3">
                     <a href=".hero" class="btn btn-outline-primary me-2">Let's Get Started !</a>
-                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -822,19 +865,24 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 hero-content">
-                    <h1 class="hero-title" data-aos="fade-up">Master Programming From <span style="color: var(--primary);">Scratch to Advanced</span></h1>
-                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Learn modern programming languages and technologies with hands-on projects and expert guidance. Turn your coding dreams into reality with Tech Tool Kits.</p>
+                    <h1 class="hero-title" data-aos="fade-up">Master Programming From <span
+                            style="color: var(--primary);">Scratch to Advanced</span></h1>
+                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Learn modern programming languages
+                        and technologies with hands-on projects and expert guidance. Turn your coding dreams into
+                        reality with Tech Tool Kits.</p>
                     <div class="d-flex flex-wrap" data-aos="fade-up" data-aos-delay="200">
                         <a href="#courses" class="btn btn-primary me-3 mb-3">Explore Courses</a>
                         <a href="#" class="btn btn-outline-primary mb-3">Free Trial</a>
                     </div>
                     <div class="mt-4" data-aos="fade-up" data-aos-delay="300">
-                        <span class="me-3"><i class="fas fa-check-circle text-success"></i> No prior experience needed</span>
+                        <span class="me-3"><i class="fas fa-check-circle text-success"></i> No prior experience
+                            needed</span>
                         <span><i class="fas fa-check-circle text-success"></i> Learn from scratch</span>
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-                    <img src="https://iili.io/31Jst1t.md.png" alt="Learn Coding" class="img-fluid" style = "border-radius:50%;">
+                    <img src="https://iili.io/31Jst1t.md.png" alt="Learn Coding" class="img-fluid"
+                        style="border-radius:50%;">
                 </div>
             </div>
         </div>
@@ -846,21 +894,23 @@
             <div class="text-center mb-5">
                 <h2 class="section-title text-center" data-aos="fade-up">Our Featured Courses</h2>
                 <p class="text-muted mx-auto" style="max-width: 600px;" data-aos="fade-up" data-aos-delay="100">
-                    Dive into our comprehensive range of programming courses designed to take you from beginner to professional.
+                    Dive into our comprehensive range of programming courses designed to take you from beginner to
+                    professional.
                 </p>
             </div>
-            
+
             <div class="row">
                 <!-- Course 1 -->
-                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="card course-card">
                         <div class="course-img" style="background-image: url('c.png');">
                             <span class="course-badge">Intermediate</span>
                         </div>
                         <div class="card-body">
                             <h5 class="course-title">C Programming From Scratch</h5>
-                            <p class="course-desc">Master the powerful C programming language with practical exercises and projects.</p>
-                            
+                            <p class="course-desc">Master the powerful C programming language with practical exercises
+                                and projects.</p>
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -872,14 +922,15 @@
                                     <i class="fas fa-star"></i>
                                     <span class="ms-2 text-muted">(5.0)</span>
                                 </div>
-                                <a href="https://c-programming-toolkit.onrender.com/" target = "_blank" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://c-programming-toolkit.onrender.com/" target="_blank"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Course 2 -->
-               
+
                 <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="card course-card">
                         <div class="course-img" style="background-image: url('htmlcss.png');">
@@ -888,7 +939,7 @@
                         <div class="card-body">
                             <h5 class="course-title">Web Fundamentals</h5>
                             <p class="course-desc">Learn the building blocks of web development.</p>
-                            
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -900,7 +951,8 @@
                                     <i class="fas fa-star-half-alt"></i>
                                     <span class="ms-2 text-muted">(4.8)</span>
                                 </div>
-                                <a href="https://ttk-webtoolkit.onrender.com/" target = "_blank" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://ttk-webtoolkit.onrender.com/" target="_blank"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -913,8 +965,9 @@
                         </div>
                         <div class="card-body">
                             <h5 class="course-title">HTML Fundamentals</h5>
-                            <p class="course-desc">Learn the building blocks of web development with HTML from scratch.</p>
-                            
+                            <p class="course-desc">Learn the building blocks of web development with HTML from scratch.
+                            </p>
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -926,7 +979,8 @@
                                     <i class="fas fa-star-half-alt"></i>
                                     <span class="ms-2 text-muted">(4.8)</span>
                                 </div>
-                                <a href="https://ttk-webtoolkit.onrender.com/html.html" target = "_blank" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://ttk-webtoolkit.onrender.com/html.html" target="_blank"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -938,8 +992,9 @@
                         </div>
                         <div class="card-body">
                             <h5 class="course-title">CSS Fundamentals</h5>
-                            <p class="course-desc">Learn the building blocks of web development with CSS from scratch.</p>
-                            
+                            <p class="course-desc">Learn the building blocks of web development with CSS from scratch.
+                            </p>
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -951,7 +1006,8 @@
                                     <i class="fas fa-star-half-alt"></i>
                                     <span class="ms-2 text-muted">(4.8)</span>
                                 </div>
-                                <a href="https://ttk-webtoolkit.onrender.com/css.html" target = "_blank" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://ttk-webtoolkit.onrender.com/css.html" target="_blank"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -964,8 +1020,9 @@
                         </div>
                         <div class="card-body">
                             <h5 class="course-title">Data Structures Through C</h5>
-                            <p class="course-desc">Understand and implement essential data structures using the C programming language.</p>
-                           
+                            <p class="course-desc">Understand and implement essential data structures using the C
+                                programming language.</p>
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -977,12 +1034,13 @@
                                     <i class="far fa-star"></i>
                                     <span class="ms-2 text-muted">(4.0)</span>
                                 </div>
-                                <a href="https://c-programming-toolkit.onrender.com/ds.html" target = "_blank" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://c-programming-toolkit.onrender.com/ds.html" target="_blank"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Course 4 -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="card course-card">
@@ -991,8 +1049,9 @@
                         </div>
                         <div class="card-body">
                             <h5 class="course-title">Bootstrap Framework</h5>
-                            <p class="course-desc">Create responsive, mobile-first websites with the popular Bootstrap framework.</p>
-                            
+                            <p class="course-desc">Create responsive, mobile-first websites with the popular Bootstrap
+                                framework.</p>
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -1004,12 +1063,13 @@
                                     <i class="fas fa-star-half-alt"></i>
                                     <span class="ms-2 text-muted">(4.5)</span>
                                 </div>
-                                <a href="https://ttk-webtoolkit.onrender.com/bootstrap.html" target = "_blank" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://ttk-webtoolkit.onrender.com/bootstrap.html" target="_blank"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Course 5 -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card course-card">
@@ -1018,8 +1078,9 @@
                         </div>
                         <div class="card-body">
                             <h5 class="course-title">DBMS Basics</h5>
-                            <p class="course-desc">Learn database fundamentals, SQL, and how to design efficient database systems.</p>
-                            
+                            <p class="course-desc">Learn database fundamentals, SQL, and how to design efficient
+                                database systems.</p>
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -1031,7 +1092,8 @@
                                     <i class="far fa-star"></i>
                                     <span class="ms-2 text-muted">(4.1)</span>
                                 </div>
-                                <a href="https://dbms-toolkit.onrender.com/" target = "_blank" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://dbms-toolkit.onrender.com/" target="_blank"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1044,8 +1106,9 @@
                         </div>
                         <div class="card-body">
                             <h5 class="course-title">SQL Basics</h5>
-                            <p class="course-desc">Learn fundamentals of SQL, and how to design efficient queries using SQL.</p>
-                            
+                            <p class="course-desc">Learn fundamentals of SQL, and how to design efficient queries using
+                                SQL.</p>
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -1057,12 +1120,13 @@
                                     <i class="far fa-star"></i>
                                     <span class="ms-2 text-muted">(4.1)</span>
                                 </div>
-                                <a href="https://dbms-toolkit.onrender.com/sql.html" target = "_blank" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://dbms-toolkit.onrender.com/sql.html" target="_blank"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Course 6 -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="card course-card">
@@ -1071,8 +1135,9 @@
                         </div>
                         <div class="card-body">
                             <h5 class="course-title">Tailwind CSS</h5>
-                            <p class="course-desc">Build modern user interfaces with the utility-first CSS framework Tailwind.</p>
-                           
+                            <p class="course-desc">Build modern user interfaces with the utility-first CSS framework
+                                Tailwind.</p>
+
                         </div>
                         <div class="card-footer bg-white">
                             <div class="course-footer">
@@ -1084,15 +1149,17 @@
                                     <i class="fas fa-star-half-alt"></i>
                                     <span class="ms-2 text-muted">(4.7)</span>
                                 </div>
-                                <a href="https://ttk-webtoolkit.onrender.com/tailwind.html" class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                                <a href="https://ttk-webtoolkit.onrender.com/tailwind.html"
+                                    class="fw-bold text-primary">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="text-center mt-5" data-aos="fade-up">
-                <a href="#" class="btn btn-outline-primary">And many more for you<i class="fas fa-arrow-right ms-2"></i></a>
+                <a href="#" class="btn btn-outline-primary">And many more for you<i
+                        class="fas fa-arrow-right ms-2"></i></a>
             </div>
         </div>
     </section>
@@ -1103,10 +1170,11 @@
             <div class="text-center mb-5">
                 <h2 class="section-title text-center" data-aos="fade-up">Why Learn With Tech Tool Kits</h2>
                 <p class="text-muted mx-auto" style="max-width: 600px;" data-aos="fade-up" data-aos-delay="100">
-                    Our platform is designed to provide you with the best learning experience and help you achieve your coding goals faster.
+                    Our platform is designed to provide you with the best learning experience and help you achieve your
+                    coding goals faster.
                 </p>
             </div>
-            
+
             <div class="row">
                 <!-- Feature 1 -->
                 <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
@@ -1115,10 +1183,11 @@
                             <i class="fas fa-laptop-code"></i>
                         </div>
                         <h3 class="feature-title">Hands-on Learning</h3>
-                        <p class="feature-desc">Learn by doing with interactive coding exercises, projects, and challenges that reinforce your skills.</p>
+                        <p class="feature-desc">Learn by doing with interactive coding exercises, projects, and
+                            challenges that reinforce your skills.</p>
                     </div>
                 </div>
-                
+
                 <!-- Feature 2 -->
                 <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature-card">
@@ -1126,10 +1195,11 @@
                             <i class="fas fa-user-graduate"></i>
                         </div>
                         <h3 class="feature-title">Expert Instructors</h3>
-                        <p class="feature-desc">Learn from industry professionals with years of experience in teaching and programming.</p>
+                        <p class="feature-desc">Learn from industry professionals with years of experience in teaching
+                            and programming.</p>
                     </div>
                 </div>
-                
+
                 <!-- Feature 3 -->
                 <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature-card">
@@ -1137,10 +1207,11 @@
                             <i class="fas fa-code-branch"></i>
                         </div>
                         <h3 class="feature-title">Structured Curriculum</h3>
-                        <p class="feature-desc">Our carefully designed curriculum takes you from basics to advanced concepts in a logical progression.</p>
+                        <p class="feature-desc">Our carefully designed curriculum takes you from basics to advanced
+                            concepts in a logical progression.</p>
                     </div>
                 </div>
-                
+
                 <!-- Feature 4 -->
                 <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature-card">
@@ -1148,10 +1219,11 @@
                             <i class="fas fa-clock"></i>
                         </div>
                         <h3 class="feature-title">Learn at Your Pace</h3>
-                        <p class="feature-desc">Access courses 24/7 and learn on your schedule, with lifetime access to all course materials.</p>
+                        <p class="feature-desc">Access courses 24/7 and learn on your schedule, with lifetime access to
+                            all course materials.</p>
                     </div>
                 </div>
-                
+
                 <!-- Feature 5 -->
                 <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature-card">
@@ -1159,41 +1231,41 @@
                             <i class="fas fa-comments"></i>
                         </div>
                         <h3 class="feature-title">Community Support</h3>
-                        <p class="feature-desc">Join our active community of learners to ask questions, share knowledge, and collaborate.</p>
+                        <p class="feature-desc">Join our active community of learners to ask questions, share knowledge,
+                            and collaborate.</p>
                     </div>
                 </div>
-                
-                
+
             </div>
         </div>
     </section>
 
     <!-- Stats Section -->
-    <section class="stats-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6" data-aos="fade-up">
-                    <div class="stat-card">
-                        <h2 class="stat-number"><span class="counter">10,000</span>+</h2>
-                        <p class="stat-text">Students Enrolled</p>
+    <section class="stats-section" style="padding: 60px 0; background-color:rgb(4, 23, 43);">
+        <div class="container" style="width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 15px;">
+            <div class="row" style="display: flex; flex-wrap: wrap; margin: 0 -15px; justify-content: center;">
+                <div class="col-lg-3 col-md-6"
+                    style="padding: 0 15px; margin-bottom: 30px; flex: 0 0 100%; max-width: 100%;" data-aos="fade-up">
+                    <div class="stat-card"
+                        style="background: white; padding: 30px 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s ease;">
+                        <h2 class="stat-number"
+                            style="font-size: 42px; font-weight: 700; color:rgb(244, 244, 244); margin-bottom: 10px;">
+                            <span class="counter">10,000</span>+</h2>
+                        <p class="stat-text" style="font-size: 18px; color: #7f8c8d; font-weight: 500; margin: 0;">
+                            Students Enrolled</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="stat-card">
-                        <h2 class="stat-number"><span class="counter">50</span>+</h2>
-                        <p class="stat-text">Courses Available</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="stat-card">
-                        <h2 class="stat-number"><span class="counter">25</span>+</h2>
-                        <p class="stat-text">Expert Instructors</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="stat-card">
-                        <h2 class="stat-number"><span class="counter">98</span>%</h2>
-                        <p class="stat-text">Satisfaction Rate</p>
+
+                <div class="col-lg-3 col-md-6"
+                    style="padding: 0 15px; margin-bottom: 30px; flex: 0 0 100%; max-width: 100%;" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div class="stat-card"
+                        style="background: white; padding: 30px 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); text-align: center; transition: transform 0.3s ease;">
+                        <h2 class="stat-number"
+                            style="font-size: 42px; font-weight: 700; color:rgb(255, 255, 255); margin-bottom: 10px;">
+                            <span class="counter">98</span>%</h2>
+                        <p class="stat-text" style="font-size: 18px; color: #7f8c8d; font-weight: 500; margin: 0;">
+                            Satisfaction Rate</p>
                     </div>
                 </div>
             </div>
@@ -1201,35 +1273,41 @@
     </section>
 
     </br>
-<hr>
-    <h1 align = "center">Admin | Developer | Owner</h1>
     <hr>
-<div class="developer-section row align-items-center text-center text-md-start" id = "admin">
-    <div class="col-md-4 mb-4 mb-md-0 text-center">
-        <img src="my-image.jpg" alt="Phani Kumar Sharma" class="developer-image">
-    </div>
-    <div class="col-md-8 developer-info">
-        <h2>K. Phani Kumar Sharma</h2>
-        <p>Title: <strong>Admin</strong></p>
-        <p>Hello I am K.Phani Kumar Sharma.Glad to meet you and i am the developer of this website and owner of [TTK] - <u>Tech Tool Kits</u>.</br>Hope you enjoy this website and start your coding journey here from scratch !</p>
-        <a href="your-portfolio-link.html" target="_blank" class="btn btn-dark mb-3">View My Portfolio</a>
+    <h1 align="center">Admin | Developer | Owner</h1>
+    <hr>
+    <div class="developer-section row align-items-center text-center text-md-start" id="admin">
+        <div class="col-md-4 mb-4 mb-md-0 text-center">
+            <img src="my-image.jpg" alt="Phani Kumar Sharma" class="developer-image">
+        </div>
+        <div class="col-md-8 developer-info">
+            <h2>K. Phani Kumar Sharma</h2>
+            <p>Title: <strong>Admin</strong></p>
+            <p>Hello I am K.Phani Kumar Sharma.Glad to meet you and i am the developer of this website and owner of
+                [TTK] - <u>Tech Tool Kits</u>.</br>Hope you enjoy this website and start your coding journey here from
+                scratch !</p>
+            <a href="your-portfolio-link.html" target="_blank" class="btn btn-dark mb-3">View My Portfolio</a>
 
-        <div class="social-section">
-            <a href="https://www.instagram.com/phani_k_sharma.k?igsh=MnNrZ2F2aWx0bnlr" target="_blank" class="social-link instagram">
-                <i class="fab fa-instagram"></i><span class="typewriter">Instagram</span>
-            </a>
-            <a href="https://www.facebook.com/share/19qrekcTHE/?mibextid=qi2Omg" target="_blank" class="social-link facebook">
-                <i class="fab fa-facebook"></i><span class="typewriter">Facebook</span>
-            </a>
-            <a href="https://www.linkedin.com/in/phani-kumar-sharma-kodukulla-63a268302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link linkedin">
-                <i class="fab fa-linkedin"></i><span class="typewriter">LinkedIn</span>
-            </a>
-            <a href="https://www.snapchat.com/add/phanikumar2122?share_id=kBiPJ_usHGM&locale=en-IN" target="_blank" class="social-link snapchat">
-                <i class="fab fa-snapchat"></i><span class="typewriter">Snapchat</span>
-            </a>
+            <div class="social-section">
+                <a href="https://www.instagram.com/phani_k_sharma.k?igsh=MnNrZ2F2aWx0bnlr" target="_blank"
+                    class="social-link instagram">
+                    <i class="fab fa-instagram"></i><span class="typewriter">Instagram</span>
+                </a>
+                <a href="https://www.facebook.com/share/19qrekcTHE/?mibextid=qi2Omg" target="_blank"
+                    class="social-link facebook">
+                    <i class="fab fa-facebook"></i><span class="typewriter">Facebook</span>
+                </a>
+                <a href="https://www.linkedin.com/in/phani-kumar-sharma-kodukulla-63a268302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank" class="social-link linkedin">
+                    <i class="fab fa-linkedin"></i><span class="typewriter">LinkedIn</span>
+                </a>
+                <a href="https://www.snapchat.com/add/phanikumar2122?share_id=kBiPJ_usHGM&locale=en-IN" target="_blank"
+                    class="social-link snapchat">
+                    <i class="fab fa-snapchat"></i><span class="typewriter">Snapchat</span>
+                </a>
+            </div>
         </div>
     </div>
-</div>
     <!-- About Section -->
     <section class="about-section" id="about">
         <div class="container">
@@ -1244,14 +1322,20 @@
                         <h2 class="about-title">About Tech Tool Kits</h2>
                         <p class="about-subtitle">Your Path to Programming Excellence</p>
                         <p class="about-desc">
-                            Tech Tool Kits (TTK) was founded with a mission to make programming education accessible, engaging, and effective for everyone. We believe that anyone can learn to code with the right guidance and resources.
+                            Tech Tool Kits (TTK) was founded with a mission to make programming education accessible,
+                            engaging, and effective for everyone. We believe that anyone can learn to code with the
+                            right guidance and resources.
                         </p>
                         <p class="about-desc">
-                            Our team of experienced educators and industry professionals has designed each course to ensure you gain both theoretical knowledge and practical skills. We focus on hands-on learning, real-world projects, and building a strong foundation in programming principles.
+                            Our team of experienced educators and industry professionals has designed each course to
+                            ensure you gain both theoretical knowledge and practical skills. We focus on hands-on
+                            learning, real-world projects, and building a strong foundation in programming principles.
                         </p>
                         <ul class="about-list">
-                            <li><i class="fas fa-check-circle"></i> Comprehensive curriculum from basics to advanced</li>
-                            <li><i class="fas fa-check-circle"></i> Regular course updates to keep up with industry trends</li>
+                            <li><i class="fas fa-check-circle"></i> Comprehensive curriculum from basics to advanced
+                            </li>
+                            <li><i class="fas fa-check-circle"></i> Regular course updates to keep up with industry
+                                trends</li>
                         </ul>
                         <a href="#" class="btn btn-primary">Learn More About Us</a>
                     </div>
@@ -1266,7 +1350,8 @@
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8" data-aos="fade-up">
                     <h2 class="cta-title">Start Your Coding Journey Today</h2>
-                    <p class="cta-subtitle">Join thousands of students who have transformed their careers with Tech Tool Kits. Get unlimited access to all our courses for a special price!</p>
+                    <p class="cta-subtitle">Join thousands of students who have transformed their careers with Tech Tool
+                        Kits. Get unlimited access to all our courses for a special price!</p>
                     <a href="#" class="btn btn-light btn-lg">Get Started Now <i class="fas fa-arrow-right ms-2"></i></a>
                     <p class="mt-4 text-white-50">No credit card required to start your free trial.</p>
                 </div>
@@ -1283,9 +1368,10 @@
                         <img src="https://iili.io/31Jst1t.md.png" alt="Tech Tool Kits Logo">
                     </div>
                     <p class="footer-desc">
-                        Tech Tool Kits is your one-stop learning platform for mastering programming skills from scratch to advanced level.
+                        Tech Tool Kits is your one-stop learning platform for mastering programming skills from scratch
+                        to advanced level.
                     </p>
-                    
+
                 </div>
                 <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
                     <h4 class="footer-title">Quick Links</h4>
@@ -1298,12 +1384,13 @@
                         <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6">
                     <h4 class="footer-title">Developed by :- </h4>
                     <h6>K.Phani Kumar Sharma</h6>
                     <div class="mt-4">
-                        <a href="https://phanikumar-kodukulla.vercel.app/" class="btn btn-outline-primary">Get In Touch</a>
+                        <a href="https://phanikumar-kodukulla.vercel.app/" class="btn btn-outline-primary">Get In
+                            Touch</a>
                     </div>
                 </div>
             </div>
@@ -1311,7 +1398,8 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="copyright">
-                    &copy; 2025 Tech Tool Kits. All Rights Reserved. Designed with <i class="fas fa-heart text-danger"></i> for coders.
+                    &copy; 2025 Tech Tool Kits. All Rights Reserved. Designed with <i
+                        class="fas fa-heart text-danger"></i> for coders.
                 </div>
             </div>
         </div>
@@ -1324,17 +1412,17 @@
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
+
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    
+
     <!-- AOS Animation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    
+
     <!-- CounterUp -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-    
+
     <script>
         $(document).ready(function() {
             // Initialize AOS
@@ -1343,7 +1431,6 @@
                 easing: 'ease-in-out',
                 once: true
             });
-            
             // Navbar scroll effect
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 50) {
@@ -1354,7 +1441,6 @@
                     $('#backToTop').removeClass('active');
                 }
             });
-            
             // Smooth scroll for anchor links
             $('a.nav-link, .footer-links a, .back-to-top').click(function(e) {
                 if (this.hash !== '') {
@@ -1365,13 +1451,11 @@
                     }, 800);
                 }
             });
-            
             // Counter Up
             $('.counter').counterUp({
                 delay: 10,
                 time: 1500
             });
-            
             // Form validation
             const forms = document.querySelectorAll('.needs-validation');
             Array.from(forms).forEach(form => {
@@ -1386,4 +1470,5 @@
         });
     </script>
 </body>
+
 </html>
