@@ -823,6 +823,145 @@ overflow-x:hidden;
 </head>
 
 <body>
+<style>
+    /* Loading Animation Styles */
+    #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .ttk-logo-container {
+        position: relative;
+        width: 100%;
+        max-width: 200px;
+        aspect-ratio: 1/1;
+    }
+    
+    .ttk-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        animation: ttk-fade-in 0.5s ease-in forwards;
+        z-index: 1;
+    }
+    
+    .ttk-loading-ring {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border: 4px solid transparent;
+    border-radius: 50%;
+    z-index: 0;
+    animation: 
+        ttk-rotate 2s linear infinite,
+        ttk-color-change 4s linear infinite;
+}
+
+@keyframes ttk-color-change {
+    0% { border-top-color: #000000; }
+    25% { border-top-color: #1E3799; }
+    50% { border-top-color: #2D46B9; }
+    75% { border-top-color: #4b7bec; }
+    100% { border-top-color: #000000; }
+}
+
+/* Keep your existing rotation animation */
+@keyframes ttk-rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+    
+    .ttk-site-title {
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .ttk-copyright {
+        position: fixed;
+        bottom: 1rem;
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #555;
+    }
+    
+    @keyframes ttk-rotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+    @keyframes ttk-fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .ttk-logo-container {
+            max-width: 150px;
+        }
+        
+        .ttk-loading-ring {
+            border-width: 3px;
+        }
+        
+        .ttk-site-title {
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+        .ttk-logo-container {
+            max-width: 120px;
+        }
+        
+        .ttk-loading-ring {
+            border-width: 2px;
+        }
+        
+        .ttk-site-title {
+            font-size: 1.2rem;
+        }
+    }
+</style>
+
+<!-- Loading Screen HTML -->
+<div id="loading-screen">
+    <div class="ttk-logo-container">
+        <img src="https://iili.io/31Jst1t.md.png" alt="Tech Tool Kits Logo" class="ttk-logo">
+        <div class="ttk-loading-ring"></div>
+    </div>
+    <div class="ttk-site-title">Tech Tool Kits</div>
+    <div class="ttk-copyright">
+        Made with love for coders by K.Phani Kumar Sharma
+    </div>
+</div>
+
+<script>
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            document.getElementById('loading-screen').style.display = 'none';
+            document.getElementById('ttk-main-content').style.display = 'block';
+        }, 2000);
+    });
+</script>
+    <main id="ttk-main-content" style ="display:none">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
